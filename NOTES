@@ -1,0 +1,7 @@
+CTRL + D = Find next instance of highlighted text
+CTRL + SHIFT + D = Duplicate
+CTRL + SHIFT + UP/DOWN = Move line up/down
+CTRL + ALT + UP/DOWN = Duplicate cursor in position
+MIDDLE CLICK + DRAG = Block highlight 
+CTRL + P = Quick open
+CTRL + S = Quick save
