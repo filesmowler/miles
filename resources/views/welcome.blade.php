@@ -117,7 +117,7 @@
                 <div class="links">
                     <a href="https://www.facebook.com/milesjulianfowler"> <i class="fa fa-facebook"></i></a>
                     <a href="https://www.instagram.com/_kilometers/"> <i class="fa fa-instagram"></i></a>
-                    <a href="mailto:milesjulianfowler@gmail.com" target="_blank" <span class="glyphicon glyphicon-envelope"></span></a>
+                    <a href="mailto:milesjulianfowler@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
                 </div>
             </div>
         </div>
