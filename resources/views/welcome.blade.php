@@ -77,10 +77,10 @@
                 text-decoration: none;
                 text-transform: lowercase;
             }
-            a .links2 {
-                color: #636b6f;
+            a.links2 {
+                color: #fff;
                 padding: 0 25px;
-                font-size: 40px;
+                font-size: 25px;
                 font-weight: 600;
                 letter-spacing: .2rem;
                 text-decoration: none;
