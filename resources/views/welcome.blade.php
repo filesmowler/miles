@@ -24,13 +24,14 @@
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
-                height: 100vh;
+                height: 100%;
+                max-width: 100%;
                 margin: 1;
             }
             .miles{
 
-                width:150%;
-                color: skyblue;
+                width:100%;
+                color: black;
                 cursor: auto;
             }
             .milesnav{
@@ -90,37 +91,47 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .container {
+                justify-content: center;
+            }
         </style>
     </head>
-    <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content miles">
-                <div class="title m-b-md">    
-                milesfowler
-                </div>
-
-               @include('new1')
-
-
-
-                <div class="links">
-                    <a href="https://www.facebook.com/milesjulianfowler"> <i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/_kilometers/"> <i class="fa fa-instagram"></i></a>
-                    <a href="mailto:milesjulianfowler@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
+<body>
+    <div class="col-xs-12">
+        <div class="flex-center">
+            <div class="content">
+                <div class="title">    
+                   milesfowler
                 </div>
             </div>
         </div>
+    </div>
+@include('new1')
+
+
+    <div class="col-xs-12 col-md-4 col-md-offset-0">
+        <div class="container">
+            <div class="flex-center">
+                <div class="links">
+                <a href="https://www.facebook.com/milesjulianfowler"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_kilometers/"> <i class="fa fa-instagram"></i></a>
+                <a href="mailto:milesjulianfowler@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+       
+    <div class="col-xs-12 col-md-4 col-md-offset-0">
+
+@include('skills')
+    </div>
+
+
+
+
+
+
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
