@@ -107,32 +107,28 @@
             </div>
         </div>
     </div>
-@include('new1')
 
 
-    <div class="col-xs-12 col-md-4 col-md-offset-0">
-        <div class="container">
-            <div class="flex-center">
-                <div class="links">
+    <div class="col-xs-12 col-md-4 col-md-offset-4">
+        <center>
+            <div class="links">    
                 <a href="https://www.facebook.com/milesjulianfowler"> <i class="fa fa-facebook"></i></a>
                 <a href="https://www.instagram.com/_kilometers/"> <i class="fa fa-instagram"></i></a>
                 <a href="mailto:milesjulianfowler@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
             </div>
+        </center>
+    </div>
+   
+    <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-4">
+            @include('skills')
         </div>
     </div>
-       
-    <div class="col-xs-12 col-md-4 col-md-offset-0">
-
-@include('skills')
+    <div class="row">
+        @include('new1')
     </div>
 
-
-
-
-
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
 </html>
