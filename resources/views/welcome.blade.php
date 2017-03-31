@@ -121,13 +121,14 @@
    
     <div class="row">
         <div class="col-xs-12 col-md-4 col-md-offset-4">
-            @include('skills')
+            <strong>@include('skills')</strong>
         </div>
     </div>
     <div class="row">
-        @include('new1')
+        <div class="col-xs-12 col-md-4 col-md-offset-1">
+            <strong>@include('experience')</strong>
+        </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
