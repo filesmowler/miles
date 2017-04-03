@@ -37,7 +37,7 @@
             .milesnav{
                 background-color: #000;
                 color: #fff;
-                width:150%;
+                width:100%;
                 cursor: auto;
             }
             
@@ -120,13 +120,18 @@
     </div>
    
     <div class="row">
-        <div class="col-xs-12 col-md-4 col-md-offset-4">
+        <div class="col-xs-12 col-md-6 col-md-offset-4">
             <strong>@include('skills')</strong>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12 col-md-4 col-md-offset-1">
             <strong>@include('experience')</strong>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-6">
+            <strong>@include('education')</strong>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
