@@ -121,7 +121,6 @@
    
     <div class="row">
         <div class="col-xs-12 col-md-6 col-md-offset-4">
-            <strong>@include('skills')</strong>
         </div>
     </div>
 
@@ -130,6 +129,7 @@
             <strong>@include('experience')</strong>
         </div>
         <div class="col-xs-12 col-md-6">
+            <strong>@include('skills')</strong>
             <strong>@include('education')</strong>
         </div>
     </div>
