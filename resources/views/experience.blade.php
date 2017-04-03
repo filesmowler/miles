@@ -1,4 +1,3 @@
-<div class="col-xs-12 col-md-8 col-md-offset-4">
 	<h1>EXPERIENCE</h1>
 		<h3><strong>Hungry Howies</strong></h3>
 			<I>Sept 2016 - March 2017</I><br>
