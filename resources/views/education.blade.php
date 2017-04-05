@@ -15,3 +15,4 @@
 				<li>Business management skills</li>
 				<li>Promotional and social media skills</li>
 				<li>Maintaining inventory, upselling products (CD's, shirts, posters, stickers, etc)</li>
+			</ul>

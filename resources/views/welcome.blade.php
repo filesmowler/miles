@@ -70,7 +70,7 @@
             }
 
             .links > a {
-                color: #636b6f;
+                color: #000000;
                 padding: 0 25px;
                 font-size: 50px;
                 font-weight: 600;
@@ -79,7 +79,7 @@
                 text-transform: lowercase;
             }
             a.links2 {
-                color: #fff;
+                color: #000000;
                 padding: 0 25px;
                 font-size: 25px;
                 font-weight: 600;
@@ -97,33 +97,22 @@
             }
         </style>
     </head>
-<body>
-    <div class="col-xs-12">
-        <div class="flex-center">
+    <body>
+        <div class="col-xs-12 col-md-6 col-md-offset-1>
             <div class="content">
-                <div class="title">    
-                   milesfowler
+                <div class="title">   
+                    <a href="http://miles.manage.band">milesfowler</a>
                 </div>
             </div>
         </div>
-    </div>
-
-
-    <div class="col-xs-12 col-md-4 col-md-offset-4">
-        <center>
-            <div class="links">    
-                <a href="https://www.facebook.com/milesjulianfowler"> <i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/_kilometers/"> <i class="fa fa-instagram"></i></a>
-                <a href="mailto:milesjulianfowler@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
-            </div>
-        </center>
-    </div>
-   
     <div class="row">
-        <div class="col-xs-12 col-md-6 col-md-offset-4">
+        <div class="col-xs-12 col-md-6">
+            <h1>
+                <a href="projects.blade.html">Projects</a>
+                <a href="miles/public/Images/Resume2017(1).pdf">Resume</a>
+            </h1>
         </div>
     </div>
-
     <div class="col-xs-12">
         <div class="col-xs-12 col-md-6">
             <strong>@include('experience')</strong>
@@ -133,6 +122,17 @@
             <strong>@include('education')</strong>
         </div>
     </div>
+
+    <div class="col-xs-12 col-md-4 col-md-offset-3">
+        <center>
+            <div class="links">    
+                <a href="https://www.facebook.com/milesjulianfowler"> <i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/_kilometers/"> <i class="fa fa-instagram"></i></a>
+                <a href="mailto:milesjulianfowler@gmail.com" target="_blank"> <i class="fa fa-envelope"></i></a>
+            </div>
+        </center>
+    </div>
+   
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
